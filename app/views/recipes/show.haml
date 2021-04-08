@@ -2,7 +2,7 @@
   = @recipe.title
 
 .row.justify-content-center
-  = image_tag @recipe.photo&.url, { class: 'img-fluid', alt: @recipe.title }
+  = image_tag @recipe.photo&.url, { class: 'img-fluid', alt: @recipe.photo&.title }
 
 %p
   - @recipe.tags&.each do |tag|
@@ -13,3 +13,5 @@
 
 %p.text-right
   = @recipe.chef&.name
+
+= link_to t(:return_to_recipes), recipes_path

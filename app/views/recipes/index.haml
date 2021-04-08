@@ -8,4 +8,4 @@
         .col-7.mr-auto
           = recipe.title
         .col-auto.align-self-end
-          = image_tag recipe.photo&.url(width: 250)
+          = image_tag recipe.photo&.url(width: 250), { alt: recipe.photo&.title }

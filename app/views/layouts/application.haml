@@ -10,4 +10,8 @@
     = stylesheet_link_tag 'application', media: 'all'
   %body
     .container
+      - if flash.any?
+        .alert.alert-info.alert-dismissible
+          - flash.each do |_type, message|
+            = message
       = yield

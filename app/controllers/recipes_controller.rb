@@ -5,6 +5,10 @@ class RecipesController < ApplicationController
 
   def show
     @recipe = contentful_client.entry(params[:id], include: 2)
+
+    unless @recipe
+      redirect_to recipes_path, notice: I18n.t('alerts.recipe_does_not_exist')
+    end
   end
 
   private
