@@ -1,0 +1,11 @@
+%h1
+  Recipes
+
+.list-group
+  - @recipes.each do |recipe|
+    = link_to recipe_path(recipe.id), { class: 'list-group-item list-group-item-action' } do
+      .row.justify-content-between
+        .col-7.mr-auto
+          = recipe.title
+        .col-auto.align-self-end
+          = image_tag recipe.photo&.url(width: 250)

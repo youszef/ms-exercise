@@ -1,0 +1,15 @@
+%h1
+  = @recipe.title
+
+.row.justify-content-center
+  = image_tag @recipe.photo&.url, { class: 'img-fluid', alt: @recipe.title }
+
+%p
+  - @recipe.tags&.each do |tag|
+    %span.badge.badge-secondary
+      = tag.name
+
+= sanitize Kramdown::Document.new(@recipe.description).to_html
+
+%p.text-right
+  = @recipe.chef&.name
