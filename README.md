@@ -39,7 +39,7 @@ To start this service on port 3000:
 ```bash
   docker run -p 3000:3000 -t --env SPACE_ID --env ACCESS_TOKEN --env RAILS_ENV --env SECRET_KEY_BASE --env RAILS_SERVE_STATIC_FILES=true ms-exercise
 ```
-__note:__ if you host this docker in nginx or something alike that can handle the assets you can remove ```RAILS_SERVE_STATIC_FILES``` 
+__note:__ if you build this project with passenger & nginx or something alike that can handle the assets you can remove ```RAILS_SERVE_STATIC_FILES``` 
 
 ###Running Tests
 ```bash
