@@ -1,0 +1,32 @@
+/.bundle
+
+/log/*
+/tmp/*
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+
+/config/master.key
+
+docker-compose.yml
+
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+.yarn/
+.byebug_history
+.yarnrc.yml
+
+# local env vars
+.envrc
+
+# IDE
+.idea/
+
+# GIT
+.git/*
