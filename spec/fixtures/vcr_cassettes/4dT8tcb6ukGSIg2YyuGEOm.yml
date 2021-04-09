@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/content_types?limit=1000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.16.0; platform ruby/3.0.1; os Linux;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '1409'
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Contentful-Api:
+      - cda_cached
+      Etag:
+      - W/"6099033674249124063"
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      X-Contentful-Region:
+      - us-east-1
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/content_types"
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 08 Apr 2021 22:57:12 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '2433890'
+      X-Served-By:
+      - cache-ams21079-AMS
+      X-Cache-Hits:
+      - '2'
+      X-Timer:
+      - S1617922633.814087,VS0,VE0
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 3e19aed1-a82a-4679-8b60-8688db4f8346
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1b3W+jOBB/71+BeL4gMJAP3qrTVlrpHu62ebpTHxzipN4SSMHJbm7V//38EQMGJ2ET2gtsoioNHow945nxb8bDjzvDMLNdZgbGD/qTXpDdGtEr8z5N4c6kbW+/sXtIQmBE2x2bX2YveE2vxEWEV5hwmi0aMEEr9sh/+CPFgyvj8LGyNQzZYPIO0ViaDWvgjXJWf+D4xWQzKD5mRNum+1k/8idWbsBzxtDLC5h985Ov373RkPElP2/5b86p+Jiizxouy0/Lp/F7EhMUEz5qqVOYIkjQ/J4JwwQ2sAe2NwD21BkGvhsAYLkA/F3usFnPNR0mU8cOvFFgj63xeKJ0QPEWp0m8ooM3kptgYwUzgtKqWJrK9FNpzJNyS9EWZziJ6exG+5tzsZpznK0juHvAKOJLQjCJCgGaMVxx1fuzLHVzjrIwxWsiHmrmXJgL9phCzdjCKYokeFfHYDfl40yV4TlJyuRxt5olkSIxM0pCGOF/EZv6AkYZKquZmaLXDU4PECnjcBYdICbUeqjWyKfq1FHDV5hsYpLu1ClKCWqJ3eFtlsJ4rudMQ+oOX8IvKmojV0xDUj2x0uuDVFEZUzr1si6e8Mxbai/UwVHL5Wb6dMRxf+LKfMq9aOwgizZLvarUKd3RlBSHz3qu6hTJ1RfaZ4q+k//Za+3X8In/3/v+DkOARZLQvfMRhUyNP1NgUxLveXjAmTpu4HoBGFujsdsAD4gOfuAPLeA4ncUD4Fw88MCXwNivgaEswjvCAw1y6I4D2aQV9CI3mhpB8nRzHWbL0YPiOlpyGyDwaBjhNgkjhNtwA9u1gOf96m4jl/+lHkOD1G4gTuQMzgZxGlcrZaohXZUX7hncyRAhOF5mLbkrJ3B9y7VV0KLPegh35XCU46qwqEtZj9Mopxqc5/mIx6rsL3VVYgPSxxE62i3iZDFLHrWwn5qIM4ZbvORRrV6yh+g36TaRbtU6WJ/cQrTEq9oOihSHRnM0ySu5zWlIV8VXz7a5BXzdh5MXb3QivQ8Ce2iNJ6MG4fyRDl3a6Jyzw3n4KmP51kC5BiVKy+p0lv8WbIg9Q3wrR33Hgo3eeqtWEpDCATkBGFrOpEkm4UiHfnms1w3KFGCXI4+Hwmm1m4CsDakAnr+qE+LUVpABSTfqCeY7HFLCOPtWOXjOJXqvoUnGLjzKaIm1nnmRjNCgJVQO10u61KykwRkPHDCwR1NAI3sQuCNrOB4ewzzOhHVwqAexAxuwMw/b7m5w757EPNUIJVd3IX1DqSipxvfTZ2TM0QLHmDkhI1kY0Nj3U2simpU+VOfyQaFUS9bX10jqKF/1M2sJY+uUVnaBeiHLO2wDX+EWiiIefcbkEF1yeAVHU0dXLczK+dJyvqJK6ApHs2R+oLSoTukKT/XKCWlbdUpLQKQt6+oZEklRiNXKSSnvxijE9hkKoYUUwA18ikIm46MoZDzIO7jDAIwsz+3uiejkJAo5UFj5RZV7HX7gzKB/hMIQsURGKApdDb4+0gdeXnmpSdd0ZzdbPyck0W9kGpLkq1a5/FH1pGrhYKlW+j6jh31FyV2p+lmTuqalr0mK0aF9TkuVrH+mxdLLahj4QSWMe1M5daZTLjJWBCa3iIM3dGX3C5/RQq+0dcr16mwl6XdcZwlUzrFLuKxOkSyL1x5Um/mYum9lzMuLbXPFF6lTtWqXR4LsvYnyfivf1xAd5LdJZVWuyxXtorqzuLN4iYK1nVvo2zOYUzGsn6wWpamWAuT4ge1Zvq++DFKpozjdoV/JWu6ac0wiHbUi9CrC+VkIowzBjUYOU6dcFYDpmSUxH1T4x0sMyQucoeWO/KbRAtB2+BUMqSzzmx0x42eb3NPd291/d69H6jU5AAA=
+  recorded_at: Thu, 08 Apr 2021 22:57:31 GMT
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries?include=2&sys.id=4dT8tcb6ukGSIg2YyuGEOm
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.16.0; platform ruby/3.0.1; os Linux;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '1176'
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Contentful-Api:
+      - cda_cached
+      Etag:
+      - W/"13349994945749651591"
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      X-Contentful-Region:
+      - us-east-1
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries"
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Contentful-Cache:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 08 Apr 2021 22:57:12 GMT
+      Age:
+      - '44702'
+      X-Served-By:
+      - cache-dca17745-DCA, cache-ams21059-AMS
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1617922633.897755,VS0,VE1
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 147cbd85-d4e4-4ad5-a520-4784335c7102
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1XW3OjNhR+z6/Q8tCHncQGYwP2PmUzabqTbbfbJNOmnR2PDMIoxhKRhL10J/+9RwI7QMBxZ986JTMxuhzpnO9cvsO3E4QsWUhrhr7BKwxUkREYWedC4MKCuadTvUdxhVOYd8xIrmgGA9sMUrqmSi/Z5ZgqstYH/mUOLI+FbWuicIQV3l9VXoeXZu8Xs7m6zazUtSonMhxq1XYndu4ykzsbPlK2srSOzw9oy1a3lY035sTWBhpp81er0WI74Q9fx76nUdg9T/t3g0v5WKXMOLoNVLjw8tXVzYfl6L7Iry4/rWvn7xW7ZEoU9YVQEKxIdK5xtEa2E5zZkzPbv3XcmRvMRqOBO3H+rAvkGWDZLTB2ZrYzmAZeQ4CwDRWcrQnTd7yOYWnSGktFRBuiY/G9rN35KoaCbKiknIF2oxq0IWcKdK5c9rrex+p2UTu3MwIECSmkwqt6pzzEqUkZws7ubnYC+/CwYkrS6DnDdMhYiqpS5vcE0gVdJCSKsEBXgqYpifSYSIK2VCX6XYgC/SpgRmyIRD+g91jStB4NWcIVP8qtx8JzLiVRbb+XMeE5f/wUPn56/+P9+f3FlbzOl/zn++vXgQKYuKBEI+EHQc3FEZGhoJkqnW+9baHg2M7bGboDPCKS0pDyXKKwBAizCC05j9BjjlOqCrSAPIreoTVeERSKnIVJgThDKiGI50rSiCAtwzkptCD8r1Yp04vvEI5glcFugdSWI8qWgkQUAlCiGOYwilO8gZdMn/0GfdBnU9AHS3KqtdKuyvauMh5DWIKc3BKikI5mATmFFNe7jdNLW06NYgvtWa2EFknpMlGnSJAYDkxAFcS4IgMDxXy+xgVnDFNJ5vO2jTw2Jhs09FU4TCgBTfRkniq6htoB6goqs+IUgEgjiN2F4FsGBy+rICz1ms8H6ILzldYjxV9LNQl74MWbRmWr6ngtXeq52lHPq9J5ICANtzxX63bRbNRe97dNVDzeBGM7yD9/Xq1IQUfeqh6UwC2dubxnHrOq93wxtEZZmOYQmvu0skoFdsT2TG195KbzvEVvNYLrhMSSHSTXubMsIxWRdRBdC7wuqtNGHiS7FmT1MllJ9sDe2Lnz8Ev/WQdob+TPxpPB1B/XWQw0PkB8fSL91NeP7AH60249GvceCjyEbI0ITbe1e6x+Kuy343hN+wlxHycQzQcyqqFrDys247+DGeEuhteGTjdkidnzfbvsLX9NjsLmkqf+z0kDxkF+7szJlzR/KCddfzZxB37wL3KyT+S/kpPfEef7HvDm+s4ZjW0E3QM/c/1xHIQkJG7oO/EkDqNw6k5td0psO15MvUZPBr2laSNbVJsL/almDYdA9EsiB6GKse7n5IARNax/2gy7m7mhbdtTEk482wvGC9eP4Q8voC3xPC+wHX86rHSeH6Xz4CFbtnvJCD4Hadpsi8tKZ0n6tzbKmY5916+HbRnk2qYXNpulLY1UoiXtkfkUbT5WQnRDBetgQ2u13ho0apQ5V6P8S1WVvtvwZhW3jIuGDxlplNbaZ2alaVX2YPR08nTyD2t2Giu4DwAA
+  recorded_at: Thu, 08 Apr 2021 22:57:31 GMT
+recorded_with: VCR 6.0.0
