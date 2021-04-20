@@ -1,5 +1,5 @@
-module Contentful
-  class EntriesService < Service
+module Recipes
+  class GetAllEntries < Service
     def initialize
       @default_value = []
     end

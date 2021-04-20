@@ -1,5 +1,5 @@
-module Contentful
-  class EntryService < Service
+module Recipes
+  class GetEntry < Service
     def initialize(id)
       @id = id
     end

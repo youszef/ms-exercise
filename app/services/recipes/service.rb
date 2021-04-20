@@ -1,4 +1,4 @@
-module Contentful
+module Recipes
   class Service
     def call
       begin
